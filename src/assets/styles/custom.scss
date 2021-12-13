@@ -67,3 +67,10 @@ h1 {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+a {
+  color: $green;
+  &:hover {
+    color: $green;
+  }
+}

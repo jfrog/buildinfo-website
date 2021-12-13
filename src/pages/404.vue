@@ -1,7 +1,7 @@
 <template>
   <Layout>
-    <div class="d-flex">
-    <img class="" src="../assets/images/404.svg" />
+    <div class="d-flex py-5">
+      <img class="" src="../assets/images/404.svg" />
     </div>
   </Layout>
 </template>

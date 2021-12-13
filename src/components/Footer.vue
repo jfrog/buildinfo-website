@@ -14,9 +14,5 @@ footer {
   width: 100%;
   margin-top: 6rem;
   background-color: #000;
-  a {
-    color: white;
-    text-decoration: underline;
-  }
 }
 </style>
