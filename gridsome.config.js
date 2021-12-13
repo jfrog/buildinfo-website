@@ -1,7 +1,7 @@
 module.exports = {
   siteName: 'JFrog Build d1',
   siteDescription: 'build info d2',
-  siteUrl: 'jfrog.github.io',
+  siteUrl: 'https://www.buildinfo.org',
   pathPrefix: '/buildinfo-website',
   plugins: [
     {
