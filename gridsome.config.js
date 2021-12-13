@@ -2,7 +2,7 @@ module.exports = {
   siteName: 'JFrog Build d1',
   siteDescription: 'build info d2',
   siteUrl: 'https://www.buildinfo.org',
-  pathPrefix: '/buildinfo-website',
+  pathPrefix: '',
   plugins: [
     {
       use: '@gridsome/source-filesystem',
