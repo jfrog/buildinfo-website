@@ -1,8 +1,8 @@
 module.exports = {
   siteName: 'JFrog Build d1',
   siteDescription: 'build info d2',
-  siteUrl: 'nadavc-jfrog.github.io',
-  pathPrefix: '/gridsome-bootstrap',
+  siteUrl: 'https://buildinfo.org',
+  pathPrefix: '/buildinfo-website',
   plugins: [
     {
       use: '@gridsome/source-filesystem',
