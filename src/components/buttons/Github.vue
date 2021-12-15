@@ -12,7 +12,6 @@
   $button-hover-color: #fff;
   .github-link {
     gap: 12px;
-    margin-left: 20px;
     padding: 8px 18px 8px 15px;
     border: 1px solid $button-color;
     border-radius: 6px;
@@ -32,6 +31,13 @@
           fill: $button-hover-color;
         }
       }
+    }
+    @media screen and (max-width: 576px) {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      transform: scale(.7);
+      transform-origin: top right;
     }
   }
 </style>

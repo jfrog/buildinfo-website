@@ -9,7 +9,7 @@
         <h1>Build Info</h1>
         <p class="text-white mb-0 pb-0">Metadata at your command</p>
       </div>
-      <div class="right-bar">
+      <div class="right-bar pt-2">
         <GithubButton />
       </div>
     </div>
