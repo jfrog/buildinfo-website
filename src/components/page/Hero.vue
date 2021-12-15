@@ -4,18 +4,26 @@
       class="hero-image"
       src="~/assets/images/homepage/hero/background-right.png"
     />
-    <div class="bi-content">
+    <div class="bi-content d-flex justify-content-between">
       <div class="content">
         <h1>Build Info</h1>
         <p class="text-white mb-0 pb-0">Metadata at your command</p>
+      </div>
+      <div class="right-bar">
+        <GithubButton />
       </div>
     </div>
   </div>  
 </template>
 
 <script>
-export default {
 
+import GithubButton from '../buttons/Github'
+
+export default {
+  components: {
+    GithubButton
+  }
 }
 </script>
 
