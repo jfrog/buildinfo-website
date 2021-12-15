@@ -17,6 +17,7 @@
     border-radius: 6px;
     position: relative;
     transition: all 0.32s ease;
+    background: rgba(black, .5);
     svg {
       path {
         fill: $button-color;
@@ -26,6 +27,7 @@
     &:hover {
       border: 1px solid $button-hover-color;
       color: $button-hover-color;
+      background: black;
       svg {
         path {
           fill: $button-hover-color;
