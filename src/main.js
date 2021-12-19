@@ -9,15 +9,16 @@ import VueYouTubeEmbed from 'vue-youtube-embed'
 
 export default function (Vue, { router, head, isClient }) {
   
-  //todo remove when published.
-  head.meta.push({
-    name: 'robots',
-    content: 'noindex'
-  })
-  head.meta.push({
-    name: 'googlebot',
-    content: 'noindex'
-  })
+  // --- UNCOMMENT TO HIDE FROM SEARCH ENGINES ---
+  // head.meta.push({
+  //   name: 'robots',
+  //   content: 'noindex'
+  // })
+  // head.meta.push({
+  //   name: 'googlebot',
+  //   content: 'noindex'
+  // })
+  // --- UNCOMMENT TO HIDE FROM SEARCH ENGINES | END ---
 
   Vue.use(BootstrapVue)
   Vue.use(VueYouTubeEmbed)

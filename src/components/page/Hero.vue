@@ -4,7 +4,7 @@
       class="hero-image"
       src="~/assets/images/homepage/hero/background-right.png"
     />
-    <div class="bi-content d-flex justify-content-between">
+    <div class="bi-content d-flex justify-content-between mt-3 mt-md-0">
       <div class="content">
         <h1>Build Info</h1>
         <p class="text-white mb-0 pb-0">Metadata at your command</p>
