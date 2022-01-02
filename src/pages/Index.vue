@@ -1,7 +1,7 @@
 <template>
   <Layout>
     
-    <h2>What is Build&nbsp;Info</h2>
+    <h2>What is Build&nbsp;Info?</h2>
     <p>
     Build-info is the metadata of a build. It includes all the details about the build broken down into segments that include version history, artifacts, project modules, dependencies, and everything that was required to create the build. In short, it is a snapshot of the components used to build your application, collected by the build agent.
     </p>
@@ -10,11 +10,11 @@
       src="~/assets/images/homepage/content/first-image.png"
     />
 
-    <h2>Why Do I Care About Metadata</h2>
+    <h2>Why Do I Care About Metadata?</h2>
     <p>
 With the build-info we can easily achieve traceability of our builds, giving us the power to analyze them and get the information about the artifacts we’re using. Mainly where they’re coming from and how they are being used. This information is crucial to helping us improve the quality of our builds as well as ensure their security.
     </p>    
-    <h2>What information is stored in the build info</h2>
+    <h2>What information is stored in the build info?</h2>
     <p>Build-info includes all the metadata for our binary lifecycle. It is all the information collected by the build agent which includes details about the build. The build-info includes the list of project modules, artifacts, dependencies, environment variables and more. When using this open source tool, the client collects the build-info and outputs the information in a JSON format. </p>
 <vue-code-highlight language="json">
   <pre>
@@ -135,4 +135,7 @@ export default {
   }
 }
 </script> 
+
+
 <style src="vue-code-highlight/themes/prism-okaidia.css"></style>
+
